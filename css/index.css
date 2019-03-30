@@ -70,7 +70,26 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/*eader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center
+   
+    }*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.top-img{
+    margin: 20px 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +131,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+     background: teal;  
+}
+.middle-content .boxes .box2 {
+    background: gold;  
+}
+.middle-content .boxes .box3 {
+    background:cadetblue;  
+}
+.middle-content .boxes .box4 {
+    background:coral;  
+}
+.middle-content .boxes .box5 {
+    background: crimson;  
+}
+.middle-content .boxes .box6 {
+    background:forestgreen;  
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;  
+}
+.middle-content .boxes .box8 {
+    background:hotpink;  
+}
+.middle-content .boxes .box9 {
+    background: indigo;  
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;  
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +193,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* css for service */
+.top-service-img{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.about {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.middel-about-section{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 30px;
+}
+.about-img {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+p {
+    padding-bottom: 20px;
+}
+button {
+	text-align: center;
+	width: 100px;
+	padding: 5px 0;
+    border-radius: 6px;
+    background: white;
+    border: 1.5px solid black;
+}
+.middel-about-section div.middel-about{
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
 }
