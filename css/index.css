@@ -70,18 +70,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-/*eader {
+header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    text-align: center
-   
-    }*/
-nav {
+    align-items: flex-end;
+    margin: 10pxgit status 0;
+    }
+.logo {
+margin-right: 40px;
+    }
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 20px 0;
+    width: 580px;
+    height: 50px;
 }
 nav a {
     text-decoration: none;
@@ -209,7 +212,6 @@ footer nav a {
 .middel-about-section{
     display: flex;
     justify-content: space-between;
-    
     margin-bottom: 30px;
 }
 .about-img {
@@ -227,8 +229,15 @@ button {
     background: white;
     border: 1.5px solid black;
 }
-.middel-about-section div.middel-about{
+.middel-about{
     padding-bottom: 30px;
     border-bottom: 1px dashed black;
-    margin-right: 20px;
+    width: 385px;
+   }
+
+   /*css for contact*/
+
+.contact-help {
+    margin: 20px 0;
+    font-size: 30px;
 }
