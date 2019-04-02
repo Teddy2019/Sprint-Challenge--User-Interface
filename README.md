@@ -50,7 +50,7 @@ cross axis
 
 5. Explain why git is valuable to a team of developers.
 
-git is very used to manage a project which is work by the team of developer. since git is version control system, developers can work in the same project simultaneously and merge the final work together. we can also see who contribut for the project. and also what added to the project and what deleted form the project
+git used to manage a project that required a team of developer to participate on it. since git is version control system, developers can work in the same project simultaneously and merge the final work together. we can also see who contribut for the project. and also what added to the project and what deleted form the project
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
