@@ -19,7 +19,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 ## Description
 
 In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
-
+git 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
 
 [Click here for the home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It introduces meaning to the web page rather than just presentation. eg <nav> tag indicates that the enclosed text is a navigation elament tag.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block allways started on the new line (eg <p>, <div>) where as inline continu on the same line (eg <img>)
 
 3. What are the 4 areas of the box model?
 
+-padding , -margin, -content, -border
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+git used to manage a project that required a team of developer to participate on it. since git is version control system, developers can work in the same project simultaneously and merge the final work together. we can also see who contribut for the project. and also what added to the project and what deleted form the project
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
